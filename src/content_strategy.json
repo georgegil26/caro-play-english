@@ -1,0 +1,23 @@
+{
+  "level_1_template": [
+    {
+      "id": "q1_01",
+      "level": 1,
+      "type": "multiple-choice",
+      "instruction": "Complete: '___ is my best friend.'",
+      "options": ["He", "I", "They", "We"],
+      "correctAnswer": "He",
+      "explanation": "Usamos 'He' para una sola persona (él)."
+    },
+    {
+      "id": "q1_02",
+      "level": 1,
+      "type": "multiple-choice",
+      "instruction": "Choose the correct form of 'To Be': 'The cat ___ black.'",
+      "options": ["am", "is", "are", "be"],
+      "correctAnswer": "is",
+      "explanation": "Para 'The cat' (it), usamos 'is'."
+    }
+  ],
+  "instructions": "Para generar 50 ejercicios por nivel, sigue este formato JSON. Puedes usar una IA para generar variaciones de oraciones basadas en los temas de cada nivel (Sustantivos, Verbos, etc.) y luego pegarlos en el archivo data.ts."
+}
